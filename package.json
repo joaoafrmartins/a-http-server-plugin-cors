@@ -1,0 +1,26 @@
+{
+  "name": "a-http-server-plugin-cors",
+  "version": "0.0.0",
+  "main": "lib",
+  "description": "A Http Server Plugin Cors",
+  "keywords": [
+    "a",
+    "http",
+    "server",
+    "plugin",
+    "cors"
+  ],
+  "dependencies": {
+    "cors": "",
+    "lodash.merge": ""
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/joaoafrmartins/a-http-server-plugin-cors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoafrmartins/a-http-server-plugin-cors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaoafrmartins/a-http-server-plugin-cors/issues"
+  }
+}
