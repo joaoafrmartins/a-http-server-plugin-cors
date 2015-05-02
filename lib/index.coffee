@@ -14,7 +14,7 @@ module.exports = (next) ->
 
     process.emit "a-http-server:shutdown:dettached", "cors"
 
-  @app.use cors @config.cors
+  @app.use cors @config.plugins.cors
 
   process.emit "a-http-server:shutdown:attach", "cors"
 
