@@ -1,10 +1,14 @@
 cors = require 'cors'
 
-merge = require 'lodash.merge'
+configFn = require 'a-http-server-config-fn'
 
 module.exports = (next) ->
 
-  @config.cors = merge require('./config'), @config?.cors or {}
+  configFn @config,
+
+    alias: "cors"
+
+    file: "#{__dirname}/config"
 
   process.on "a-http-server:shutdown:dettach", () ->
 
