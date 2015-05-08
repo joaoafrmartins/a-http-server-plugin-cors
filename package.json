@@ -22,5 +22,7 @@
   },
   "bugs": {
     "url": "https://github.com/joaoafrmartins/a-http-server-plugin-cors/issues"
-  }
+  },
+  "author": "João Afonso Martins",
+  "license": "MIT"
 }
